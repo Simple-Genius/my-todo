@@ -190,6 +190,9 @@ class _TodoScreenState extends State<TodoScreen> {
                       builder: (BuildContext context,
                           AsyncSnapshot<dynamic> snapshot) {
                         final tasklist = <TaskCard>[];
+                        if (!snapshot.hasData) {
+                          print("There is no data here");
+                        }
                         if (snapshot.hasData &&
                             !snapshot.hasError &&
                             snapshot.data.snapshot.value != null) {
@@ -243,10 +246,8 @@ class _TodoScreenState extends State<TodoScreen> {
                             ));
                           });
                         }
-                        return Expanded(
-                          child: ListView(
-                            children: tasklist,
-                          ),
+                        return ListView(
+                          children: tasklist,
                         );
                       },
                     ),

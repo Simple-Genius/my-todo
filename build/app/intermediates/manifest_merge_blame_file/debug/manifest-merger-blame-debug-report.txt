@@ -6,14 +6,14 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="33" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/Boye/StudioProjects/todo_app/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/Boye/StudioProjects/todo_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/Boye/StudioProjects/my-todo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/Boye/StudioProjects/my-todo/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -61,25 +61,25 @@
 56            android:value="2" />
 57
 58        <service
-58-->[:firebase_database] /Users/Boye/StudioProjects/todo_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+58-->[:firebase_database] /Users/Boye/StudioProjects/my-todo/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 59            android:name="com.google.firebase.components.ComponentDiscoveryService"
-59-->[:firebase_database] /Users/Boye/StudioProjects/todo_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+59-->[:firebase_database] /Users/Boye/StudioProjects/my-todo/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 60            android:directBootAware="true"
 60-->[com.google.firebase:firebase-common:20.1.1] /Users/Boye/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 61            android:exported="false" >
 61-->[com.google.firebase:firebase-database:20.0.5] /Users/Boye/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:31:13-37
 62            <meta-data
-62-->[:firebase_database] /Users/Boye/StudioProjects/todo_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+62-->[:firebase_database] /Users/Boye/StudioProjects/my-todo/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-63-->[:firebase_database] /Users/Boye/StudioProjects/todo_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+63-->[:firebase_database] /Users/Boye/StudioProjects/my-todo/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:firebase_database] /Users/Boye/StudioProjects/todo_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+64-->[:firebase_database] /Users/Boye/StudioProjects/my-todo/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 65            <meta-data
-65-->[:firebase_core] /Users/Boye/StudioProjects/todo_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+65-->[:firebase_core] /Users/Boye/StudioProjects/my-todo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-66-->[:firebase_core] /Users/Boye/StudioProjects/todo_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+66-->[:firebase_core] /Users/Boye/StudioProjects/my-todo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_core] /Users/Boye/StudioProjects/todo_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+67-->[:firebase_core] /Users/Boye/StudioProjects/my-todo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 68            <meta-data
 68-->[com.google.firebase:firebase-database:20.0.5] /Users/Boye/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
 69                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
